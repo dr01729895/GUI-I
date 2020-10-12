@@ -1,0 +1,61 @@
+/* 
+    File: /~druocco/WEB_INF/domenic_ruocco_hw4/css/style.css
+    Assignment: HW4
+    Domenic Ruocco, UML Comp Sci, druocco@cs.uml.edu
+    Course: 91.61 GUI Programming I
+    Copyright (c) 2020 by Domenic Ruocco. All rights reserved.
+    This page is used to style index.html 
+*/
+
+/*
+    Almost everything from the table section was removed,
+        only the link hover color was kept
+
+    Nothing else was changed
+*/
+
+body {
+    background-color: #272727;
+    font-family: roboto;
+}
+
+h1 {
+    color: #ffffff;
+    background-color: #323232;
+    font-size: 36px;
+    padding: 5px;
+    width: fit-content;
+}
+
+h2 {
+    color: #d3d3d3;
+    background-color: #232323;
+    font-size: 24px;
+    padding: 5px;
+    width: fit-content;
+    margin-top: -24px;
+    margin-bottom: 10px;
+
+}
+
+.desc {
+    color: #ffffff;
+    background-color: #323232;
+    padding: 5px;
+    width: fit-content;
+    width: 50%;
+    margin-left: 25%;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #232323;
+}
+
+.desc:hover {
+    color: #d3d3d3;
+    background-color: #232323;
+    border-color: #323232;
+}
+
+tr a:hover {
+    color: #5555ff !important;
+}
